@@ -16,10 +16,10 @@ app.post("/", function(req, res){
 	const firstName = req.body.firstName;
 	const lastName = req.body.lastName;
 	const email = req.body.email;
-	const url = "https://us14.api.mailchimp.com/3.0/lists/2832743a4f";
+	const url = "https://usX.api.mailchimp.com/3.0/lists/KEY";
 	const options = {
 		method: "POST",
-		auth: "myusername:4614c261e6aa257bd7bd9bee7b539751-us14"
+		auth: "myusername:KEY"
 	}
 	const data = {
 		members: [
